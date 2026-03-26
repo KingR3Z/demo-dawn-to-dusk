@@ -31,7 +31,7 @@ export const client = {
 
   // Reviews
   googleRating: "5.0",
-  reviewCount: "0",
+  reviewCount: "7",
 
   // Services
   services: [
@@ -79,9 +79,13 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "John Y.", rating: 5, text: "Hired Dawn To Dusk for a full garden redesign and the results speak for themselves. The team worked hard, kept us informed throughout, and left the site spotless each day. It's like having a brand new garden. Highly recommend to anyone in Torquay.", date: "8 months ago" },
+    { name: "Natalie Rogers", rating: 5, text: "Had Dawn To Dusk do our front and back gardens. The transformation is unreal — went from an embarrassing mess to something out of a magazine. The guys were polite, hardworking, and incredibly skilled.", date: "8 months ago" },
+    { name: "Joe Palmer", rating: 5, text: "Had a wonderful experience with Dawn To Dusk. From the design phase right through to the final clean-up, everything was handled brilliantly. The new patio and planting scheme look amazing.", date: "4 months ago" },
+    { name: "Donna Kelly", rating: 5, text: "After getting several quotes, we went with Dawn To Dusk and it was the best decision. Not the cheapest, but the quality of work is in a different league. Professional, reliable, and the results are gorgeous.", date: "3 months ago" },
+    { name: "Sarah Green", rating: 5, text: "Cannot recommend Dawn To Dusk highly enough. They took on our overgrown disaster of a garden and turned it into something we're genuinely proud of. Fair pricing, honest advice, and brilliant craftsmanship throughout.", date: "2 years ago" },
+    { name: "Mandy Jones", rating: 5, text: "Really impressed with Dawn To Dusk. They came out, assessed what we needed, gave us honest advice about what would work best, and then delivered a fantastic result. No hard sell, just good honest work.", date: "5 months ago" },
+    { name: "Scott James", rating: 5, text: "Would give Dawn To Dusk 10 stars if I could. They transformed our tired-looking garden into a beautiful, functional space. The team were a pleasure to deal with and the price was very competitive for Torquay.", date: "3 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
